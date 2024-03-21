@@ -1,1 +1,85 @@
-/*Schrijf hier jouw CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.opdracht-1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-2 ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.opdracht-2 ul li {
+    flex: 1;
+}
+
+.opdracht-3 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-leftt {
+    align-self: flex-start;
+}
+
+.centerr {
+    align-self: center;
+}
+
+.bottom-rightt {
+    align-self: flex-end;
+}
+
+.opdracht-4 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:  space-evenly;
+}
+
+.opdracht-4 ul li {
+    margin: 5px;
+}
+
+.opdracht-5 ul {
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+    flex-basis: max-content;
+    /*border: 5px dashed yellow;*/
+}
+
+.opdracht-5 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.part-one {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    row-gap: 40px;
+}
+
+.part-two {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    row-gap: 40px;
+}
+
+.part-three {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    row-gap: 40px;
+}
